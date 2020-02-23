@@ -1,0 +1,20 @@
+[
+  {
+    "label": "I like to _ _ _ _ with Falcon.",
+    "choices": [
+      { "value": "does", "correct": false },
+      { "value": "when", "correct": false },
+      { "value": "play", "correct": true },
+      { "value": "down", "correct": false }
+    ]
+  },
+  {
+    "label": "I have _ _ _ dollars",
+    "choices": [
+      { "value": "two", "correct": true },
+      { "value": "any", "correct": false },
+      { "value": "say", "correct": false },
+      { "value": "out", "correct": false }
+    ]
+  }
+]
