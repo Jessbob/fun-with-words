@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/purple-green.css";
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 
 html,
 body {
@@ -9,15 +9,31 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-
+.bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rebeccapurple;
+  background-image: url("unicornbg.jpg");
+  background-position: bottom;
+}
+.bgcolor {
+  background-color: rebeccapurple;
+}
 .quiz-card {
   max-width: 400px;
-  margin: 5px;
+  margin: auto;
 }
 .question-card {
-  max-width: 400px;
+  margin: auto;
+  margin-top: 5%;
+  max-width: 75%;
+  opacity: 85%;
+  background-color: rebeccapurple;
+  border: solid;
+  border-color: deeppink;
+  border-width: thick;
 }
 .form-card {
-  max-width: 400px;
   margin: 5px;
+  background-color: deeppink;
 }

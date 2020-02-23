@@ -1,14 +1,8 @@
 [
   {
-    "label": "Maths",
-    "name": "maths",
-    "description": "Questions about maths",
-    "fileName": "maths.json"
-  },
-  {
-    "label": "French",
-    "name": "french",
-    "description": "Questions about french",
-    "fileName": "french.json"
+    "label": "Find the missing word",
+    "name": "sightwords",
+    "description": "Find the word thats missing in the sentence",
+    "fileName": "sightwords.json"
   }
 ]

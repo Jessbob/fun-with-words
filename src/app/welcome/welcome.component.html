@@ -1,14 +1,19 @@
 <div>
-  <mat-card class="page-container" color="secondary">
-    <mat-card-title class="title"><h1>Quizzes</h1></mat-card-title>
+  <mat-card color="dark-accent">
+    <mat-card-header>
+      <mat-card-title class="title" color="primary"
+        ><h1>Fun With Words!</h1></mat-card-title
+      >
+    </mat-card-header>
   </mat-card>
+
   <div *ngFor="let q of quiz">
     <mat-card class="quiz-card">
       <mat-card-title>{{ q.label }}</mat-card-title>
       <mat-card-subtitle>{{ q.description }}</mat-card-subtitle>
       <mat-card-actions>
         <a mat-raised-button color="primary" routerLink="/{{ q.name }}"
-          >Take Quiz!</a
+          >Lets Play!</a
         >
       </mat-card-actions>
     </mat-card>
