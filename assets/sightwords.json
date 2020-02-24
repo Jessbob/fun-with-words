@@ -1,6 +1,6 @@
 [
   {
-    "label": "I like to _ _ _ _ with Falcon.",
+    "label": "I like to  __ __ __ __ with Falcon.",
     "choices": [
       { "value": "does", "correct": false },
       { "value": "when", "correct": false },
@@ -9,12 +9,30 @@
     ]
   },
   {
-    "label": "I have _ _ _ dollars",
+    "label": "I have __ __ __ dollars.",
     "choices": [
       { "value": "two", "correct": true },
       { "value": "any", "correct": false },
       { "value": "say", "correct": false },
       { "value": "out", "correct": false }
+    ]
+  },
+  {
+    "label": "__ __ __ is your best friend?",
+    "choices": [
+      { "value": "two", "correct": false },
+      { "value": "any", "correct": false },
+      { "value": "who", "correct": true },
+      { "value": "out", "correct": false }
+    ]
+  },
+  {
+    "label": "What __ __ __ __ the fox say?",
+    "choices": [
+      { "value": "come", "correct": false },
+      { "value": "when", "correct": false },
+      { "value": "into", "correct": false },
+      { "value": "does", "correct": true }
     ]
   }
 ]
