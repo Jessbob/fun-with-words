@@ -54,7 +54,7 @@
     ]
   }
   {
-    "label": "I can't want for the first __ __ __ of summer!",
+    "label": "I can't wait for the first __ __ __ of summer!",
     "choices": [
       { "value": "say", "correct": false },
       { "value": "too", "correct": false },
