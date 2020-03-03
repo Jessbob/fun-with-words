@@ -34,5 +34,32 @@
       { "value": "into", "correct": false },
       { "value": "does", "correct": true }
     ]
+  },
+  {
+    "label": "__ __ __ __ are we doing today?",
+    "choices": [
+      { "value": "Said", "correct": false },
+      { "value": "What", "correct": true },
+      { "value": "Also", "correct": false },
+      { "value": "Very", "correct": false }
+    ]
+  },
+  {
+    "label": "Can Raven __ __ __ __ over and play?",
+    "choices": [
+      { "value": "come", "correct": true },
+      { "value": "when", "correct": false },
+      { "value": "into", "correct": false },
+      { "value": "none", "correct": false }
+    ]
+  }
+  {
+    "label": "I can't want for the first __ __ __ of summer!",
+    "choices": [
+      { "value": "say", "correct": false },
+      { "value": "too", "correct": false },
+      { "value": "her", "correct": false },
+      { "value": "day", "correct": true }
+    ]
   }
 ]
