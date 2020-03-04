@@ -22,6 +22,11 @@ body {
 .quiz-card {
   max-width: 400px;
   margin: auto;
+  background-color: rebeccapurple;
+  border: solid;
+  border-color: deeppink;
+  border-width: thick;
+  margin-top: 75px;
 }
 .question-card {
   margin: auto;
@@ -34,6 +39,31 @@ body {
   border-width: thick;
 }
 .form-card {
-  margin: 5px;
   background-color: deeppink;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .question-card {
+    max-width: 85%;
+  }
+  .quiz-card {
+    max-width: 85%;
+    margin-top: 25px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .question-card {
+    max-width: 50%;
+  }
+  h2 {
+    font-size: 34px;
+  }
 }

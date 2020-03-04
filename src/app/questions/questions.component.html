@@ -14,9 +14,7 @@
         [disabled]="!answers.values[currentQuestionIndex]"
       >
         {{
-          currentQuestionIndex === questions.length - 1
-            ? "View results"
-            : "Next"
+          currentQuestionIndex === questions.length - 1 ? "I Did It!" : "Next"
         }}
       </button>
     </mat-card-footer>
